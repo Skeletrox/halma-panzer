@@ -12,6 +12,8 @@
 #include <cfloat>
 #include <ctime>
 #include <cstdlib>
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
 
 using namespace std;
 

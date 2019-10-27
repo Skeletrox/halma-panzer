@@ -2,6 +2,8 @@
 #include "util.h"
 #include <array>
 #include <math.h>
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
 
 using namespace std;
 
@@ -232,6 +234,7 @@ void State::setFutureStates(PositionsVector positions, char team, PositionsVecto
 		}
 		i++;
 	}
+	stepChildrenIndex = stepResult.second, jumpChildrenIndex = jumpResult.second;
 	// All jumps are illegal!
 	if (jumpChildren.size() == 0) {
 		jumpChildrenIndex = -1;

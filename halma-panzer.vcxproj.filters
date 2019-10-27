@@ -29,19 +29,19 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Board.cpp">
+    <ClCompile Include="State.cu">
       <Filter>Files</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
+    <ClCompile Include="Player.cu">
       <Filter>Files</Filter>
     </ClCompile>
-    <ClCompile Include="util.cpp">
+    <ClCompile Include="main.cu">
       <Filter>Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Board.cu">
       <Filter>Files</Filter>
     </ClCompile>
-    <ClCompile Include="State.cpp">
+    <ClCompile Include="util.cu">
       <Filter>Files</Filter>
     </ClCompile>
   </ItemGroup>

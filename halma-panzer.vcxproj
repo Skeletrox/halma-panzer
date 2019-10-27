@@ -87,11 +87,11 @@
     <ClInclude Include="util.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Board.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="State.cpp" />
-    <ClCompile Include="util.cpp" />
+    <ClCompile Include="Board.cu" />
+    <ClCompile Include="main.cu" />
+    <ClCompile Include="Player.cu" />
+    <ClCompile Include="State.cu" />
+    <ClCompile Include="util.cu" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

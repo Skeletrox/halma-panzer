@@ -1,6 +1,8 @@
 #include "Player.h"
 #include "State.h"
 #include <array>
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
 
 Player::Player(char argTeam, PositionsVector argLocations) {
 	team = argTeam;

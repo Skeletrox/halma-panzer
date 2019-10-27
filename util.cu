@@ -4,6 +4,8 @@
 #include "util.h"
 #include <math.h>
 #include <chrono>
+#include "cuda_runtime.h"
+#include "device_launch_parameters.h"
 
 float max(float a, float b) {
 	return a > b ? a : b;
