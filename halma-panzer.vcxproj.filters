@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{a3bfbece-d61a-4bfd-9781-197c4568f911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{11f56c48-5a27-4749-bc3e-a665d16429a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Board.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="components.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="State.cu">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cu">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cu">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cu">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cu">
+      <Filter>Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

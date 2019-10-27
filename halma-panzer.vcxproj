@@ -79,6 +79,20 @@
   <ItemGroup>
     <CudaCompile Include="kernel.cu" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="components.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Board.cu" />
+    <ClCompile Include="main.cu" />
+    <ClCompile Include="Player.cu" />
+    <ClCompile Include="State.cu" />
+    <ClCompile Include="util.cu" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 10.1.targets" />
